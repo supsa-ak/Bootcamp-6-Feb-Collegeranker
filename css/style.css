@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-box{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+    margin: 31px;
+}
+
+.img-size{
+    width: 135px;
+    margin-left: 30px;
+}
+
+nav{
+    justify-content: space-between;
+    align-items: center;
+    background-color: #67ff0042;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    overflow: hidden;
+    background-color: pink;
+    width: 100%;
+    height: 100px;
+}
+
+.center{
+    align-items: center;
+    position: absolute;
+    left: 500px;
+    bottom: 200px;
+}
